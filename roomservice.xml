@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  local_manifests/roomservice.xml — AxionOS untuk Xiaomi Poco F1 (beryllium)
+  Branch target: lineage-23.2 (Android 16 QPR2)
+
+  CARA PAKAI:
+  1. repo init -u https://github.com/AxionAOSP/android.git -b lineage-23.2 --git-lfs
+  2. mkdir -p .repo/local_manifests
+  3. Taruh file ini di .repo/local_manifests/roomservice.xml
+  4. repo sync -j$(nproc --all) --force-sync
+
+  ⚠️ PENTING — WAJIB DICEK DULU SEBELUM REPO SYNC:
+  Beryllium saat ini TIDAK ada di daftar official_devices AxionAOSP
+  (github.com/AxionAOSP/official_devices). Terakhir yang saya temukan,
+  device tree AxionAOSP untuk beryllium masih di branch lineage-22.2,
+  bukan lineage-23.2. Belum ada konfirmasi device tree-nya sudah di-rebase
+  ke 23.2. Cek dulu manual:
+    https://github.com/AxionAOSP/android_device_xiaomi_beryllium/branches
+  Kalau branch lineage-23.2 belum ada di sana, kamu harus port sendiri
+  (rebase device tree dari branch lama ke lineage-23.2, atau ambil basis
+  dari LineageOS/android_device_xiaomi_beryllium yang branch lineage-23.2-nya
+  sudah resmi ada).
+-->
+<manifest>
+
+  <!-- Device tree -->
+  <project name="AxionAOSP/android_device_xiaomi_beryllium"
+           path="device/xiaomi/beryllium"
+           remote="github"
+           revision="lineage-23.2" />
+
+  <!-- SDM845 common device tree (dipakai bareng dipper/polaris/beryllium) -->
+  <project name="LineageOS/android_device_xiaomi_sdm845-common"
+           path="device/xiaomi/sdm845-common"
+           remote="github"
+           revision="lineage-23.2" />
+
+  <!-- Kernel -->
+  <project name="LineageOS/android_kernel_xiaomi_sdm845"
+           path="kernel/xiaomi/sdm845"
+           remote="github"
+           revision="lineage-23.2" />
+
+  <!-- Vendor blobs (proprietary) -->
+  <project name="TheMuppets/proprietary_vendor_xiaomi"
+           path="vendor/xiaomi"
+           remote="github"
+           revision="lineage-23.2" />
+
+  <!-- qcom-caf common (biasa dibutuhkan sdm845) -->
+  <project name="LineageOS/android_hardware_qcom-caf_common"
+           path="hardware/qcom-caf/common"
+           remote="github"
+           revision="lineage-23.2" />
+
+  <project name="LineageOS/android_hardware_qcom-caf_sdm845"
+           path="hardware/qcom-caf/sdm845"
+           remote="github"
+           revision="lineage-23.2" />
+
+</manifest>
