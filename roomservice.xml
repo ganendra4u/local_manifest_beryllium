@@ -11,14 +11,24 @@
            remote="github"
            revision="lineage-23.2" />
 
-  <project name="LineageOS/android_kernel_xiaomi_sdm845"
+  <project name="duckyduckG/android_kernel_xiaomi_sdm845_419"
            path="kernel/xiaomi/sdm845"
            remote="github"
-           revision="lineage-23.2" />
+           revision="lineage-23.2_xiaomi" />
 
   <project name="TheMuppets/proprietary_vendor_xiaomi"
            path="vendor/xiaomi"
            remote="github"
            revision="lineage-23.2" />
+
+  <project name="TheMuppets/proprietary_vendor_xiaomi_beryllium"
+           path="vendor/xiaomi/beryllium"
+           remote="github"
+           revision="lineage-22.2" />
+
+  <project name="TheMuppets/proprietary_vendor_xiaomi_sdm845-common"
+           path="vendor/xiaomi/sdm845-common"
+           remote="github"
+           revision="lineage-22.2" />
 
 </manifest>
