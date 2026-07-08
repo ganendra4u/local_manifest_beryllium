@@ -21,7 +21,7 @@
            remote="github"
            revision="lineage-23.2" />
 
-  <project name="duckyduckG/android_vendor_xiaomi_sdm845-common_419"
+  <project name="ganendra4u/android_vendor_xiaomi_sdm845-common_419"
            path="vendor/xiaomi/sdm845-common"
            remote="github"
            revision="lineage-23.2" />
