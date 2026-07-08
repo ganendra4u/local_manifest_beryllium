@@ -26,4 +26,9 @@
            remote="github"
            revision="lineage-23.2" />
 
+  <project name="LineageOS/android_hardware_xiaomi"
+           path="hardware/xiaomi"
+           remote="github"
+           revision="lineage-23.2" />
+
 </manifest>
