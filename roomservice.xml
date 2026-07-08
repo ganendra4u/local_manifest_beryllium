@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project name="ganendra4u/android_device_xiaomi_beryllium"
+  <project name="ganendra4u/android_device_xiaomi_beryllium_419"
            path="device/xiaomi/beryllium"
            remote="github"
            revision="lineage-23.2" />
 
-  <project name="LineageOS/android_device_xiaomi_sdm845-common"
+  <project name="duckyduckG/android_device_xiaomi_sdm845-common_419"
            path="device/xiaomi/sdm845-common"
            remote="github"
            revision="lineage-23.2" />
@@ -16,19 +16,14 @@
            remote="github"
            revision="lineage-23.2_xiaomi" />
 
-  <project name="TheMuppets/proprietary_vendor_xiaomi"
-           path="vendor/xiaomi"
+  <project name="duckyduckG/android_vendor_xiaomi_beryllium_419"
+           path="vendor/xiaomi/beryllium"
            remote="github"
            revision="lineage-23.2" />
 
-  <project name="TheMuppets/proprietary_vendor_xiaomi_beryllium"
-           path="vendor/xiaomi/beryllium"
-           remote="github"
-           revision="lineage-22.2" />
-
-  <project name="TheMuppets/proprietary_vendor_xiaomi_sdm845-common"
+  <project name="duckyduckG/android_vendor_xiaomi_sdm845-common_419"
            path="vendor/xiaomi/sdm845-common"
            remote="github"
-           revision="lineage-22.2" />
+           revision="lineage-23.2" />
 
 </manifest>
