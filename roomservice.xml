@@ -6,7 +6,7 @@
            remote="github"
            revision="lineage-23.2" />
 
-  <project name="duckyduckG/android_device_xiaomi_sdm845-common_419"
+  <project name="ganendra4u/android_device_xiaomi_sdm845-common_419"
            path="device/xiaomi/sdm845-common"
            remote="github"
            revision="lineage-23.2" />
